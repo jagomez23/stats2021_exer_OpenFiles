@@ -38,6 +38,8 @@ for (i in packages){
 }
 ```
 
+
+
 ## Open a csv data file
 CSV files can be opened using the menus in RStudio or by executing code. Open your data file by using the menu (File - Import Dataset) or executing the code block below to open the Week1.csv file. If you use the menus, make sure to select From Text (readr)... We will use Tidyverse packages as much as possible in this class. The readr package is a Tidyverse package. The rio packages tries to make data import and export simple. The following code block uses the rio import() function. When you open the dataset, notice that a new Data object appears in the Environment pane in the top right window of RStudio. (If the Environment pane isn't showing, click on the Environment tab.) You can see the variables in the dataset by clicking on the circle with the triangle in it next to the name of the data object. You can see the data in a spreadsheet like window by clicking on the name of the data object. Click on the tab with this assignment to come back to it after looking at the dataset pane. Try both of them out. 
 
@@ -73,7 +75,9 @@ plot(cars)
 ```
 
 Add a new code chunk below this line by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
+```{r eval=FALSE}
+View(cars)
+```
 
 ## Save your output.
 Save this assignment as a markdown file by following these steps:
